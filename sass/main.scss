@@ -1,4 +1,22 @@
-@import "base";
-@import "typography";
+//ABSTRACTS
+@import './abstracts/mixins';
+@import './abstracts/variables';
 
-@import "swiper";
+//BASE
+@import './base/normalize';
+@import './base/typography';
+
+//COMPONENTS
+@import './components/carousels';
+@import './components/forms';
+
+//LAYOUTS
+@import './layouts/grid';
+@import './layouts/navbar';
+
+//PAGES
+@import './pages/aboutpage';
+@import './pages/homepage';
+
+//VENDORS
+@import './vendors/bootstrap';
