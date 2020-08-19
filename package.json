@@ -12,7 +12,7 @@
     "compress:css": "node-sass css/style.prefix.css css/style.css --output-style compressed",
     "bundler:dev": "parcel index.html",
     "bundler:build": "parcel build index.html",
-    "build:dev": "npm-run-all compile:sass prefix:css compress:css bundler:build",
+    "build:dev": "npm-run-all compile:sass prefix:css compress:css bundler:dev",
     "build:bundle": "npm-run-all compile:sass prefix:css compress:css bundler:build"
   },
   "author": "Jonas",
